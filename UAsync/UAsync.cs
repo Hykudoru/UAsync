@@ -10,7 +10,7 @@ namespace UAsync
         {
             float elapsedTime = 0f;
 
-            while (conditionRun(elapsedTime)) ;
+            while (conditionRun(elapsedTime))
             {
                 elapsedTime += Time.unscaledDeltaTime;
                 Time.fixedDeltaTime = 0.02f * Time.timeScale;
